@@ -1,5 +1,4 @@
 import React from "react";
-
 const Calculator = ({ num1, num2 }) => {
   return (
     <div className="p-4 border rounded-lg shadow-lg max-w-sm mx-auto bg-white">
