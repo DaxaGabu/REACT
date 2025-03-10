@@ -1,5 +1,8 @@
 import React from "react";
-import Calculator from "./lecture1501/Calculator";
+//import Calculator from "./lecture1501/Calculator";
+import MultipleState from "./lec1002/reducerexmp2";
+ 
+
 
 const App = () => {
   return (
@@ -10,4 +13,13 @@ const App = () => {
   );
 };
 
+
+ createRoot(document.getElementById("root")).render(
+   <div>
+     <UseContextExample />
+     <MultipleState />
+   </div>
+ );
+
+ 
 export default App;
